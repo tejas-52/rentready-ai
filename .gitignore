@@ -31,3 +31,6 @@ dist-ssr
 *.sln
 *.sw?
 .vercel
+.r.env
+.env*
+!.env.production
