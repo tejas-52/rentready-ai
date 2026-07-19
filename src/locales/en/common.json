@@ -1,0 +1,180 @@
+{
+  "app": { "name": "RentReady AI", "tagline": "Your AI-powered rental application copilot" },
+  "language": { "label": "Language", "en": "English", "de": "Deutsch", "hi": "हिन्दी", "preferred": "Preferred Language", "sectionTitle": "Language & Region" },
+  "nav": { "home": "Home", "documents": "Documents", "assistant": "Assistant", "report": "Report", "profile": "Profile", "settings": "Settings" },
+  "common": {
+    "continue": "Continue", "cancel": "Cancel", "save": "Save", "next": "Next", "back": "Back", "finish": "Finish",
+    "loading": "Loading…", "signIn": "Sign in", "signUp": "Sign up", "signOut": "Sign out", "logout": "Logout",
+    "email": "Email", "password": "Password", "name": "Name", "country": "Country",
+    "or": "or", "edit": "Edit", "close": "Close", "retry": "Try again", "goHome": "Go home",
+    "verified": "Verified", "pending": "Pending", "needsAttention": "Needs attention", "notUploaded": "Not uploaded",
+    "confidence": "Confidence", "live": "Live", "complete": "Complete", "inProgress": "In progress", "locked": "Locked", "upNext": "Up next",
+    "seeAll": "See all", "preview": "Preview", "replace": "Replace", "verifiedByAi": "Verified with AI", "aiVerified": "AI-verified",
+    "yes": "Yes", "no": "No"
+  },
+  "auth": {
+    "welcomeBack": "Welcome back", "signInSubtitle": "Sign in to continue your rental application.",
+    "createAccount": "Create your account", "createSubtitle": "Only a few details. You can edit everything later.",
+    "continueWithGoogle": "Continue with Google", "continueAsDemo": "Continue as Demo",
+    "newHere": "New here?", "createAccountLink": "Create an account",
+    "alreadyHaveAccount": "Already have an account?",
+    "forgot": "Forgot?", "resetPassword": "Reset your password", "resetHelp": "Enter your email and we'll send you a reset link.",
+    "sendResetLink": "Send reset link", "checkEmail": "Check your email", "resetSent": "We sent a password reset link to {{email}}.",
+    "backToSignIn": "Back to sign in", "setNewPassword": "Set a new password", "newPassword": "New password", "updatePassword": "Update password",
+    "features": { "aiReview": "AI Document Review", "confidence": "Rental Confidence", "assistant": "AI Assistant", "report": "Instant Report" },
+    "heroTitle": "Find your next home with", "heroTitleAccent": "confidence.",
+    "heroSubtitle": "RentReady AI helps you prepare a stronger rental application before submission — verified, complete, and ready to send.",
+    "toasts": { "welcome": "Welcome back", "created": "Account created — let's get started", "demo": "Demo mode enabled", "passwordUpdated": "Password updated", "checkInbox": "Check your inbox", "signedOut": "Signed out" },
+    "errors": { "passwordShort": "Password must be at least 6 characters", "googleFailed": "Google sign-in failed" }
+  },
+  "welcome": {
+    "greeting": "Welcome",
+    "subtitle": "Let's prepare your rental application. We'll walk you through everything.",
+    "estimated": "Estimated time",
+    "minutes": "5 minutes"
+  },
+  "onboarding": {
+    "step": "Step {{current}} of {{total}}",
+    "language": { "title": "Choose your language", "subtitle": "You can change this anytime in Settings." },
+    "location": { "title": "Where are you renting?", "subtitle": "We tailor recommendations to your rental market." },
+    "employment": { "title": "What's your employment status?", "subtitle": "Landlords review this closely." },
+    "docs": { "title": "Which documents do you already have?", "subtitle": "Select all that apply — you can add the rest later." },
+    "employmentOptions": { "student": "Student", "employee": "Employee", "selfEmployed": "Self-employed", "freelancer": "Freelancer", "other": "Other" },
+    "docsOptions": { "passport": "Passport", "visa": "Visa", "employment": "Employment Letter", "payslip": "Payslip", "bank": "Bank Statement", "utility": "Utility Bill", "reference": "Rental Reference" },
+    "allSet": "You're all set"
+  },
+  "dashboard": {
+    "goodMorning": "Good morning", "goodAfternoon": "Good afternoon", "goodEvening": "Good evening",
+    "letsGetReady": "Let's get you rental ready.",
+    "almostReady": "You're almost ready to apply.",
+    "oneLeft": "Only one verification left — complete residence proof to unlock",
+    "excellentTier": "Excellent",
+    "estCompletion": "Estimated completion · about 40 seconds",
+    "continueApp": "Continue application", "viewReport": "View report",
+    "journey": "Journey", "yourProgress": "Your progress", "journeySubtitle": "Five gentle steps to a complete application.",
+    "todayInsight": "Today's AI insight",
+    "smartChecklist": "Smart checklist",
+    "aiActivity": "AI activity",
+    "recentUploads": "Recent uploads", "allDocuments": "All documents",
+    "checklist": { "identity": "Identity", "employment": "Employment", "income": "Income", "residence": "Residence" },
+    "activity": {
+      "passport": "Passport verified", "salary": "Salary verified", "visa": "Visa valid until 2028",
+      "utilityMissing": "Utility bill missing", "noIssues": "No inconsistencies detected"
+    },
+    "smart": { "uploadUtility": "Upload Utility Bill", "addReference": "Add Rental Reference" },
+    "steps": { "identity": "Identity", "income": "Income", "employment": "Employment", "residence": "Residence", "review": "Review" }
+  },
+  "documents": {
+    "title": "Everything in one secure place",
+    "subtitle": "{{verified}} of {{total}} verified · AI checks each document as you upload.",
+    "dropHere": "Drop your file here",
+    "fileHint": "PDF, PNG, JPG · up to 10 MB",
+    "useCamera": "Use camera", "chooseFile": "Choose file",
+    "tapToUpload": "Tap to upload", "analyzing": "Analyzing…",
+    "uploadSecurely": "Upload securely",
+    "steps": {
+      "reading": "Reading document…",
+      "extracting": "Extracting information…",
+      "checking": "Checking authenticity…",
+      "crossReferencing": "Cross-referencing profile…",
+      "identityVerified": "Identity verified"
+    },
+    "suggestedImprovement": "Suggested improvement",
+    "improveHelp": "Uploading a more recent version raises confidence by up to 5%.",
+    "toasts": { "verified": "Verified · confidence {{score}}%", "uploadFailed": "Upload failed" },
+    "names": {
+      "passport": "Passport", "visa": "Visa", "employment": "Employment Letter", "payslip": "Payslip",
+      "bank": "Bank Statement", "tax": "Tax Documents", "utility": "Utility Bill", "reference": "Rental Reference"
+    },
+    "empty": "No documents uploaded yet. Let's upload your passport."
+  },
+  "assistant": {
+    "title": "Ask your AI assistant",
+    "subtitle": "Grounded in your uploaded documents. Always warm, never robotic.",
+    "placeholder": "Ask about your application…",
+    "tryAsking": "Try asking",
+    "welcome": "Hi — I'm your RentReady copilot. Ask me anything about your application, or tap a suggestion below.",
+    "suggestions": {
+      "why": "Why isn't my application ready?",
+      "score": "Explain my rental confidence score.",
+      "missing": "What documents am I missing?",
+      "improve": "How can I improve my score?"
+    }
+  },
+  "report": {
+    "title": "Your rental application report",
+    "landlordTitle": "Landlord preview",
+    "subtitle": "A single, landlord-ready summary — reviewed by AI.",
+    "landlordSubtitle": "This is exactly what your landlord sees when you share this application.",
+    "applicantView": "Applicant view",
+    "landlordPreview": "Landlord preview",
+    "exportPdf": "Export PDF",
+    "readOnly": "Read-only preview · shared securely with landlord",
+    "readyReview": "Ready to review",
+    "aiSummary": "AI Summary",
+    "timeline": "Application timeline",
+    "radar": "Confidence radar",
+    "beforeAfter": "Before AI · After AI",
+    "before": "Before AI review", "after": "After AI review",
+    "uplift": "uplift after AI cleaned up documents, spotted issues, and structured your profile.",
+    "summary": "Application summary",
+    "verifiedDocs": "Verified documents",
+    "recommendations": "Recommendations",
+    "add": "Add {{name}}",
+    "fields": {
+      "applicant": "Applicant", "occupation": "Occupation", "monthlyIncome": "Monthly Income",
+      "visa": "Visa Status", "address": "Current Address", "nationality": "Nationality",
+      "employment": "Employment", "confidence": "Confidence"
+    }
+  },
+  "profile": {
+    "title": "Your rental identity",
+    "subtitle": "Automatically generated from your verified documents. Fully editable.",
+    "rentalConfidence": "Rental Confidence",
+    "fields": {
+      "occupation": "Occupation", "nationality": "Nationality", "monthlyIncome": "Monthly Income",
+      "address": "Current Address", "employment": "Employment", "visa": "Visa Status"
+    }
+  },
+  "settings": {
+    "title": "Manage your account",
+    "subtitle": "Fine-tune your RentReady AI experience.",
+    "account": "Account",
+    "editProfile": "Edit profile",
+    "notifications": "Notifications",
+    "notifEmail": "Email me when documents are verified",
+    "theme": "Theme",
+    "darkMode": "Use dark mode",
+    "privacy": "Privacy",
+    "shareData": "Share anonymized data to improve AI",
+    "language": "Language",
+    "dangerZone": "Danger zone",
+    "deleteAccount": "Delete account",
+    "comingSoon": "Coming soon",
+    "comingSoonDetail": "This setting will be available shortly.",
+    "themeSwitched": "Switched to {{mode}} mode",
+    "light": "light", "dark": "dark",
+    "languageUpdated": "Language updated"
+  },
+  "ai": {
+    "reviewing": "Reviewing your documents…", "reviewComplete": "Review complete",
+    "confidenceBump": "+6% confidence",
+    "steps": {
+      "readPassport": "Reading Passport", "readEmployment": "Reading Employment Letter",
+      "readVisa": "Reading Visa", "checkInconsistencies": "Checking inconsistencies"
+    },
+    "results": {
+      "passportDetected": "Passport detected", "salaryVerified": "Salary verified",
+      "residencyVerified": "Residency verified", "noIssues": "No issues found"
+    }
+  },
+  "errors": {
+    "pageNotFound": "Page not found",
+    "notFoundHelp": "The page you're looking for doesn't exist or has been moved.",
+    "somethingWrong": "This page didn't load",
+    "somethingWrongHelp": "Something went wrong on our end. You can try refreshing or head back home.",
+    "emailRequired": "Email is required",
+    "networkError": "Network error",
+    "unsupportedFile": "Unsupported file"
+  }
+}

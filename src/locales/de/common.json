@@ -1,0 +1,180 @@
+{
+  "app": { "name": "RentReady AI", "tagline": "Ihr KI-Copilot für Mietanträge" },
+  "language": { "label": "Sprache", "en": "English", "de": "Deutsch", "hi": "हिन्दी", "preferred": "Bevorzugte Sprache", "sectionTitle": "Sprache & Region" },
+  "nav": { "home": "Start", "documents": "Dokumente", "assistant": "Assistent", "report": "Bericht", "profile": "Profil", "settings": "Einstellungen" },
+  "common": {
+    "continue": "Weiter", "cancel": "Abbrechen", "save": "Speichern", "next": "Weiter", "back": "Zurück", "finish": "Fertig",
+    "loading": "Wird geladen…", "signIn": "Anmelden", "signUp": "Registrieren", "signOut": "Abmelden", "logout": "Abmelden",
+    "email": "E-Mail", "password": "Passwort", "name": "Name", "country": "Land",
+    "or": "oder", "edit": "Bearbeiten", "close": "Schließen", "retry": "Erneut versuchen", "goHome": "Zur Startseite",
+    "verified": "Verifiziert", "pending": "Ausstehend", "needsAttention": "Prüfung nötig", "notUploaded": "Nicht hochgeladen",
+    "confidence": "Vertrauen", "live": "Live", "complete": "Abgeschlossen", "inProgress": "In Bearbeitung", "locked": "Gesperrt", "upNext": "Als Nächstes",
+    "seeAll": "Alle anzeigen", "preview": "Vorschau", "replace": "Ersetzen", "verifiedByAi": "Von KI verifiziert", "aiVerified": "KI-verifiziert",
+    "yes": "Ja", "no": "Nein"
+  },
+  "auth": {
+    "welcomeBack": "Willkommen zurück", "signInSubtitle": "Melden Sie sich an, um Ihren Mietantrag fortzusetzen.",
+    "createAccount": "Konto erstellen", "createSubtitle": "Nur wenige Angaben. Sie können alles später bearbeiten.",
+    "continueWithGoogle": "Mit Google fortfahren", "continueAsDemo": "Als Demo fortfahren",
+    "newHere": "Neu hier?", "createAccountLink": "Konto erstellen",
+    "alreadyHaveAccount": "Bereits ein Konto?",
+    "forgot": "Vergessen?", "resetPassword": "Passwort zurücksetzen", "resetHelp": "Geben Sie Ihre E-Mail ein und wir senden Ihnen einen Link.",
+    "sendResetLink": "Link senden", "checkEmail": "E-Mail prüfen", "resetSent": "Wir haben einen Link an {{email}} gesendet.",
+    "backToSignIn": "Zurück zur Anmeldung", "setNewPassword": "Neues Passwort festlegen", "newPassword": "Neues Passwort", "updatePassword": "Passwort aktualisieren",
+    "features": { "aiReview": "KI-Dokumentenprüfung", "confidence": "Miet-Vertrauensscore", "assistant": "KI-Assistent", "report": "Sofortiger Bericht" },
+    "heroTitle": "Finden Sie Ihr nächstes Zuhause mit", "heroTitleAccent": "Vertrauen.",
+    "heroSubtitle": "RentReady AI hilft Ihnen, einen stärkeren Mietantrag vorzubereiten — verifiziert, vollständig und versandfertig.",
+    "toasts": { "welcome": "Willkommen zurück", "created": "Konto erstellt — los geht's", "demo": "Demo-Modus aktiviert", "passwordUpdated": "Passwort aktualisiert", "checkInbox": "Postfach prüfen", "signedOut": "Abgemeldet" },
+    "errors": { "passwordShort": "Passwort muss mindestens 6 Zeichen haben", "googleFailed": "Google-Anmeldung fehlgeschlagen" }
+  },
+  "welcome": {
+    "greeting": "Willkommen",
+    "subtitle": "Lassen Sie uns Ihren Mietantrag vorbereiten. Wir begleiten Sie Schritt für Schritt.",
+    "estimated": "Geschätzte Zeit",
+    "minutes": "5 Minuten"
+  },
+  "onboarding": {
+    "step": "Schritt {{current}} von {{total}}",
+    "language": { "title": "Sprache auswählen", "subtitle": "Sie können dies jederzeit in den Einstellungen ändern." },
+    "location": { "title": "Wo mieten Sie?", "subtitle": "Wir passen Empfehlungen an Ihren Mietmarkt an." },
+    "employment": { "title": "Wie ist Ihr Beschäftigungsstatus?", "subtitle": "Vermieter prüfen dies genau." },
+    "docs": { "title": "Welche Dokumente haben Sie bereits?", "subtitle": "Wählen Sie alle passenden aus — den Rest können Sie später hinzufügen." },
+    "employmentOptions": { "student": "Student:in", "employee": "Angestellt", "selfEmployed": "Selbstständig", "freelancer": "Freiberuflich", "other": "Andere" },
+    "docsOptions": { "passport": "Reisepass", "visa": "Visum", "employment": "Arbeitsbescheinigung", "payslip": "Gehaltsabrechnung", "bank": "Kontoauszug", "utility": "Nebenkostenabrechnung", "reference": "Mietreferenz" },
+    "allSet": "Alles bereit"
+  },
+  "dashboard": {
+    "goodMorning": "Guten Morgen", "goodAfternoon": "Guten Tag", "goodEvening": "Guten Abend",
+    "letsGetReady": "Machen wir Sie mietfertig.",
+    "almostReady": "Sie sind fast bereit zur Bewerbung.",
+    "oneLeft": "Nur eine Prüfung fehlt noch — vervollständigen Sie den Wohnsitznachweis für",
+    "excellentTier": "Exzellent",
+    "estCompletion": "Geschätzte Fertigstellung · etwa 40 Sekunden",
+    "continueApp": "Antrag fortsetzen", "viewReport": "Bericht ansehen",
+    "journey": "Verlauf", "yourProgress": "Ihr Fortschritt", "journeySubtitle": "Fünf sanfte Schritte zu einem vollständigen Antrag.",
+    "todayInsight": "KI-Erkenntnis heute",
+    "smartChecklist": "Intelligente Checkliste",
+    "aiActivity": "KI-Aktivität",
+    "recentUploads": "Neueste Uploads", "allDocuments": "Alle Dokumente",
+    "checklist": { "identity": "Identität", "employment": "Beschäftigung", "income": "Einkommen", "residence": "Wohnsitz" },
+    "activity": {
+      "passport": "Reisepass verifiziert", "salary": "Gehalt verifiziert", "visa": "Visum gültig bis 2028",
+      "utilityMissing": "Nebenkostenabrechnung fehlt", "noIssues": "Keine Unstimmigkeiten erkannt"
+    },
+    "smart": { "uploadUtility": "Nebenkostenabrechnung hochladen", "addReference": "Mietreferenz hinzufügen" },
+    "steps": { "identity": "Identität", "income": "Einkommen", "employment": "Beschäftigung", "residence": "Wohnsitz", "review": "Prüfung" }
+  },
+  "documents": {
+    "title": "Alles an einem sicheren Ort",
+    "subtitle": "{{verified}} von {{total}} verifiziert · KI prüft jedes Dokument beim Upload.",
+    "dropHere": "Datei hier ablegen",
+    "fileHint": "PDF, PNG, JPG · bis zu 10 MB",
+    "useCamera": "Kamera nutzen", "chooseFile": "Datei wählen",
+    "tapToUpload": "Zum Hochladen tippen", "analyzing": "Analysiert…",
+    "uploadSecurely": "Sicher hochladen",
+    "steps": {
+      "reading": "Dokument wird gelesen…",
+      "extracting": "Informationen werden extrahiert…",
+      "checking": "Echtheit wird geprüft…",
+      "crossReferencing": "Profil wird abgeglichen…",
+      "identityVerified": "Identität verifiziert"
+    },
+    "suggestedImprovement": "Verbesserungsvorschlag",
+    "improveHelp": "Eine neuere Version erhöht das Vertrauen um bis zu 5%.",
+    "toasts": { "verified": "Verifiziert · Vertrauen {{score}}%", "uploadFailed": "Upload fehlgeschlagen" },
+    "names": {
+      "passport": "Reisepass", "visa": "Visum", "employment": "Arbeitsbescheinigung", "payslip": "Gehaltsabrechnung",
+      "bank": "Kontoauszug", "tax": "Steuerunterlagen", "utility": "Nebenkostenabrechnung", "reference": "Mietreferenz"
+    },
+    "empty": "Noch keine Dokumente hochgeladen. Laden Sie Ihren Reisepass hoch."
+  },
+  "assistant": {
+    "title": "Fragen Sie Ihren KI-Assistenten",
+    "subtitle": "Basiert auf Ihren hochgeladenen Dokumenten. Immer freundlich, nie roboterhaft.",
+    "placeholder": "Fragen Sie zu Ihrem Antrag…",
+    "tryAsking": "Fragen Sie z. B.",
+    "welcome": "Hallo — ich bin Ihr RentReady-Copilot. Fragen Sie mich alles zu Ihrem Antrag oder tippen Sie auf einen Vorschlag.",
+    "suggestions": {
+      "why": "Warum ist mein Antrag noch nicht fertig?",
+      "score": "Erklären Sie meinen Miet-Vertrauensscore.",
+      "missing": "Welche Dokumente fehlen mir?",
+      "improve": "Wie kann ich meinen Score verbessern?"
+    }
+  },
+  "report": {
+    "title": "Ihr Mietantragsbericht",
+    "landlordTitle": "Vermieter-Vorschau",
+    "subtitle": "Eine vermietertaugliche Zusammenfassung — von KI geprüft.",
+    "landlordSubtitle": "Genau das sieht Ihr Vermieter, wenn Sie den Antrag teilen.",
+    "applicantView": "Antragsteller-Ansicht",
+    "landlordPreview": "Vermieter-Vorschau",
+    "exportPdf": "PDF exportieren",
+    "readOnly": "Nur-Lese-Vorschau · sicher mit Vermieter geteilt",
+    "readyReview": "Prüfbereit",
+    "aiSummary": "KI-Zusammenfassung",
+    "timeline": "Antragsverlauf",
+    "radar": "Vertrauens-Radar",
+    "beforeAfter": "Vor KI · Nach KI",
+    "before": "Vor der KI-Prüfung", "after": "Nach der KI-Prüfung",
+    "uplift": "Verbesserung, nachdem die KI Dokumente aufbereitet und Ihr Profil strukturiert hat.",
+    "summary": "Antragsübersicht",
+    "verifiedDocs": "Verifizierte Dokumente",
+    "recommendations": "Empfehlungen",
+    "add": "{{name}} hinzufügen",
+    "fields": {
+      "applicant": "Antragsteller", "occupation": "Beruf", "monthlyIncome": "Monatseinkommen",
+      "visa": "Visa-Status", "address": "Aktuelle Adresse", "nationality": "Nationalität",
+      "employment": "Beschäftigung", "confidence": "Vertrauen"
+    }
+  },
+  "profile": {
+    "title": "Ihre Mieteridentität",
+    "subtitle": "Automatisch aus Ihren verifizierten Dokumenten erstellt. Voll editierbar.",
+    "rentalConfidence": "Miet-Vertrauen",
+    "fields": {
+      "occupation": "Beruf", "nationality": "Nationalität", "monthlyIncome": "Monatseinkommen",
+      "address": "Aktuelle Adresse", "employment": "Beschäftigung", "visa": "Visa-Status"
+    }
+  },
+  "settings": {
+    "title": "Konto verwalten",
+    "subtitle": "Passen Sie Ihre RentReady AI-Erfahrung an.",
+    "account": "Konto",
+    "editProfile": "Profil bearbeiten",
+    "notifications": "Benachrichtigungen",
+    "notifEmail": "E-Mail senden, wenn Dokumente verifiziert sind",
+    "theme": "Design",
+    "darkMode": "Dunkles Design verwenden",
+    "privacy": "Datenschutz",
+    "shareData": "Anonymisierte Daten teilen, um KI zu verbessern",
+    "language": "Sprache",
+    "dangerZone": "Gefahrenzone",
+    "deleteAccount": "Konto löschen",
+    "comingSoon": "Bald verfügbar",
+    "comingSoonDetail": "Diese Einstellung ist bald verfügbar.",
+    "themeSwitched": "Auf {{mode}} Modus umgestellt",
+    "light": "hell", "dark": "dunkel",
+    "languageUpdated": "Sprache aktualisiert"
+  },
+  "ai": {
+    "reviewing": "Ihre Dokumente werden geprüft…", "reviewComplete": "Prüfung abgeschlossen",
+    "confidenceBump": "+6% Vertrauen",
+    "steps": {
+      "readPassport": "Reisepass lesen", "readEmployment": "Arbeitsbescheinigung lesen",
+      "readVisa": "Visum lesen", "checkInconsistencies": "Unstimmigkeiten prüfen"
+    },
+    "results": {
+      "passportDetected": "Reisepass erkannt", "salaryVerified": "Gehalt verifiziert",
+      "residencyVerified": "Wohnsitz verifiziert", "noIssues": "Keine Probleme gefunden"
+    }
+  },
+  "errors": {
+    "pageNotFound": "Seite nicht gefunden",
+    "notFoundHelp": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "somethingWrong": "Diese Seite konnte nicht geladen werden",
+    "somethingWrongHelp": "Etwas ist schiefgelaufen. Bitte aktualisieren oder zur Startseite zurückkehren.",
+    "emailRequired": "E-Mail ist erforderlich",
+    "networkError": "Netzwerkfehler",
+    "unsupportedFile": "Nicht unterstützte Datei"
+  }
+}

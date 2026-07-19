@@ -1,0 +1,18 @@
+# Supabase Edge Function Configuration
+# These are injected as Deno.env vars in each function
+
+[functions.chat]
+enabled = true
+verify_jwt = false
+
+[functions.pipeline]
+enabled = true
+verify_jwt = false
+
+[functions.run-agent]
+enabled = true
+verify_jwt = false
+
+[functions.autopilot]
+enabled = true
+verify_jwt = false

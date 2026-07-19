@@ -1,0 +1,180 @@
+{
+  "app": { "name": "RentReady AI", "tagline": "आपका AI-संचालित रेंटल आवेदन सहायक" },
+  "language": { "label": "भाषा", "en": "English", "de": "Deutsch", "hi": "हिन्दी", "preferred": "पसंदीदा भाषा", "sectionTitle": "भाषा और क्षेत्र" },
+  "nav": { "home": "होम", "documents": "दस्तावेज़", "assistant": "सहायक", "report": "रिपोर्ट", "profile": "प्रोफ़ाइल", "settings": "सेटिंग्स" },
+  "common": {
+    "continue": "जारी रखें", "cancel": "रद्द करें", "save": "सहेजें", "next": "आगे", "back": "पीछे", "finish": "समाप्त",
+    "loading": "लोड हो रहा है…", "signIn": "साइन इन", "signUp": "साइन अप", "signOut": "साइन आउट", "logout": "लॉगआउट",
+    "email": "ईमेल", "password": "पासवर्ड", "name": "नाम", "country": "देश",
+    "or": "या", "edit": "संपादित करें", "close": "बंद करें", "retry": "पुनः प्रयास करें", "goHome": "होम पर जाएँ",
+    "verified": "सत्यापित", "pending": "लंबित", "needsAttention": "ध्यान चाहिए", "notUploaded": "अपलोड नहीं हुआ",
+    "confidence": "विश्वास", "live": "लाइव", "complete": "पूर्ण", "inProgress": "प्रगति में", "locked": "लॉक", "upNext": "अगला",
+    "seeAll": "सभी देखें", "preview": "पूर्वावलोकन", "replace": "बदलें", "verifiedByAi": "AI द्वारा सत्यापित", "aiVerified": "AI-सत्यापित",
+    "yes": "हाँ", "no": "नहीं"
+  },
+  "auth": {
+    "welcomeBack": "वापसी पर स्वागत है", "signInSubtitle": "अपना रेंटल आवेदन जारी रखने के लिए साइन इन करें।",
+    "createAccount": "अपना खाता बनाएँ", "createSubtitle": "बस कुछ विवरण। आप बाद में सब कुछ संपादित कर सकते हैं।",
+    "continueWithGoogle": "Google से जारी रखें", "continueAsDemo": "डेमो के रूप में जारी रखें",
+    "newHere": "नए हैं?", "createAccountLink": "खाता बनाएँ",
+    "alreadyHaveAccount": "पहले से खाता है?",
+    "forgot": "भूल गए?", "resetPassword": "पासवर्ड रीसेट करें", "resetHelp": "अपना ईमेल दर्ज करें, हम रीसेट लिंक भेजेंगे।",
+    "sendResetLink": "रीसेट लिंक भेजें", "checkEmail": "अपना ईमेल जाँचें", "resetSent": "हमने {{email}} पर रीसेट लिंक भेज दिया है।",
+    "backToSignIn": "साइन इन पर वापस", "setNewPassword": "नया पासवर्ड सेट करें", "newPassword": "नया पासवर्ड", "updatePassword": "पासवर्ड अपडेट करें",
+    "features": { "aiReview": "AI दस्तावेज़ समीक्षा", "confidence": "रेंटल विश्वास स्कोर", "assistant": "AI सहायक", "report": "तत्काल रिपोर्ट" },
+    "heroTitle": "अपना अगला घर खोजें", "heroTitleAccent": "आत्मविश्वास के साथ।",
+    "heroSubtitle": "RentReady AI आपको जमा करने से पहले एक मज़बूत रेंटल आवेदन तैयार करने में मदद करता है — सत्यापित, पूर्ण और भेजने के लिए तैयार।",
+    "toasts": { "welcome": "वापसी पर स्वागत है", "created": "खाता बन गया — आइए शुरू करें", "demo": "डेमो मोड सक्षम", "passwordUpdated": "पासवर्ड अपडेट हुआ", "checkInbox": "अपना इनबॉक्स जाँचें", "signedOut": "साइन आउट हुए" },
+    "errors": { "passwordShort": "पासवर्ड कम से कम 6 अक्षर का होना चाहिए", "googleFailed": "Google साइन-इन विफल" }
+  },
+  "welcome": {
+    "greeting": "स्वागत है",
+    "subtitle": "आइए आपका रेंटल आवेदन तैयार करें। हम आपको हर कदम पर मार्गदर्शन करेंगे।",
+    "estimated": "अनुमानित समय",
+    "minutes": "5 मिनट"
+  },
+  "onboarding": {
+    "step": "{{total}} में से चरण {{current}}",
+    "language": { "title": "अपनी भाषा चुनें", "subtitle": "आप इसे कभी भी सेटिंग्स में बदल सकते हैं।" },
+    "location": { "title": "आप कहाँ किराए पर ले रहे हैं?", "subtitle": "हम आपके रेंटल बाज़ार के अनुसार सुझाव देते हैं।" },
+    "employment": { "title": "आपकी रोज़गार स्थिति क्या है?", "subtitle": "मकान मालिक इसे ध्यान से देखते हैं।" },
+    "docs": { "title": "आपके पास पहले से कौन से दस्तावेज़ हैं?", "subtitle": "जो लागू हों उन्हें चुनें — बाकी बाद में जोड़ सकते हैं।" },
+    "employmentOptions": { "student": "छात्र", "employee": "कर्मचारी", "selfEmployed": "स्व-नियोजित", "freelancer": "फ्रीलांसर", "other": "अन्य" },
+    "docsOptions": { "passport": "पासपोर्ट", "visa": "वीज़ा", "employment": "रोज़गार पत्र", "payslip": "वेतन पर्ची", "bank": "बैंक स्टेटमेंट", "utility": "यूटिलिटी बिल", "reference": "किराया संदर्भ" },
+    "allSet": "सब तैयार है"
+  },
+  "dashboard": {
+    "goodMorning": "सुप्रभात", "goodAfternoon": "नमस्कार", "goodEvening": "शुभ संध्या",
+    "letsGetReady": "आइए आपको रेंटल के लिए तैयार करें।",
+    "almostReady": "आप लगभग आवेदन के लिए तैयार हैं।",
+    "oneLeft": "केवल एक सत्यापन बाकी — निवास प्रमाण पूरा करें और पाएँ",
+    "excellentTier": "उत्कृष्ट",
+    "estCompletion": "अनुमानित समापन · लगभग 40 सेकंड",
+    "continueApp": "आवेदन जारी रखें", "viewReport": "रिपोर्ट देखें",
+    "journey": "यात्रा", "yourProgress": "आपकी प्रगति", "journeySubtitle": "पूर्ण आवेदन के लिए पाँच सरल चरण।",
+    "todayInsight": "आज की AI अंतर्दृष्टि",
+    "smartChecklist": "स्मार्ट चेकलिस्ट",
+    "aiActivity": "AI गतिविधि",
+    "recentUploads": "हाल के अपलोड", "allDocuments": "सभी दस्तावेज़",
+    "checklist": { "identity": "पहचान", "employment": "रोज़गार", "income": "आय", "residence": "निवास" },
+    "activity": {
+      "passport": "पासपोर्ट सत्यापित", "salary": "वेतन सत्यापित", "visa": "वीज़ा 2028 तक वैध",
+      "utilityMissing": "यूटिलिटी बिल गुम है", "noIssues": "कोई विसंगति नहीं मिली"
+    },
+    "smart": { "uploadUtility": "यूटिलिटी बिल अपलोड करें", "addReference": "किराया संदर्भ जोड़ें" },
+    "steps": { "identity": "पहचान", "income": "आय", "employment": "रोज़गार", "residence": "निवास", "review": "समीक्षा" }
+  },
+  "documents": {
+    "title": "सब कुछ एक सुरक्षित जगह पर",
+    "subtitle": "{{total}} में से {{verified}} सत्यापित · AI हर अपलोड की जाँच करता है।",
+    "dropHere": "अपनी फ़ाइल यहाँ छोड़ें",
+    "fileHint": "PDF, PNG, JPG · 10 MB तक",
+    "useCamera": "कैमरा उपयोग करें", "chooseFile": "फ़ाइल चुनें",
+    "tapToUpload": "अपलोड करने के लिए टैप करें", "analyzing": "विश्लेषण हो रहा है…",
+    "uploadSecurely": "सुरक्षित रूप से अपलोड करें",
+    "steps": {
+      "reading": "दस्तावेज़ पढ़ा जा रहा है…",
+      "extracting": "जानकारी निकाली जा रही है…",
+      "checking": "प्रामाणिकता जाँची जा रही है…",
+      "crossReferencing": "प्रोफ़ाइल से मिलान…",
+      "identityVerified": "पहचान सत्यापित"
+    },
+    "suggestedImprovement": "सुझाया गया सुधार",
+    "improveHelp": "नई प्रति अपलोड करने से विश्वास 5% तक बढ़ता है।",
+    "toasts": { "verified": "सत्यापित · विश्वास {{score}}%", "uploadFailed": "अपलोड विफल" },
+    "names": {
+      "passport": "पासपोर्ट", "visa": "वीज़ा", "employment": "रोज़गार पत्र", "payslip": "वेतन पर्ची",
+      "bank": "बैंक स्टेटमेंट", "tax": "कर दस्तावेज़", "utility": "यूटिलिटी बिल", "reference": "किराया संदर्भ"
+    },
+    "empty": "अभी कोई दस्तावेज़ अपलोड नहीं हुआ। आइए आपका पासपोर्ट अपलोड करें।"
+  },
+  "assistant": {
+    "title": "अपने AI सहायक से पूछें",
+    "subtitle": "आपके अपलोड किए दस्तावेज़ों पर आधारित। हमेशा सहज, कभी रोबोटिक नहीं।",
+    "placeholder": "अपने आवेदन के बारे में पूछें…",
+    "tryAsking": "यह पूछकर देखें",
+    "welcome": "नमस्ते — मैं आपका RentReady सहायक हूँ। अपने आवेदन के बारे में कुछ भी पूछें, या नीचे दिए सुझाव पर टैप करें।",
+    "suggestions": {
+      "why": "मेरा आवेदन तैयार क्यों नहीं है?",
+      "score": "मेरा रेंटल विश्वास स्कोर समझाएँ।",
+      "missing": "मेरे कौन से दस्तावेज़ गायब हैं?",
+      "improve": "मैं अपना स्कोर कैसे सुधारूँ?"
+    }
+  },
+  "report": {
+    "title": "आपकी रेंटल आवेदन रिपोर्ट",
+    "landlordTitle": "मकान मालिक पूर्वावलोकन",
+    "subtitle": "एक मकान-मालिक-तैयार सारांश — AI द्वारा समीक्षित।",
+    "landlordSubtitle": "यही आपके मकान मालिक को दिखता है जब आप आवेदन साझा करते हैं।",
+    "applicantView": "आवेदक दृश्य",
+    "landlordPreview": "मकान मालिक पूर्वावलोकन",
+    "exportPdf": "PDF निर्यात करें",
+    "readOnly": "केवल-पठन पूर्वावलोकन · मकान मालिक के साथ सुरक्षित रूप से साझा",
+    "readyReview": "समीक्षा के लिए तैयार",
+    "aiSummary": "AI सारांश",
+    "timeline": "आवेदन समयरेखा",
+    "radar": "विश्वास रडार",
+    "beforeAfter": "AI से पहले · AI के बाद",
+    "before": "AI समीक्षा से पहले", "after": "AI समीक्षा के बाद",
+    "uplift": "उछाल के बाद जब AI ने दस्तावेज़ साफ़ किए और आपकी प्रोफ़ाइल संरचित की।",
+    "summary": "आवेदन सारांश",
+    "verifiedDocs": "सत्यापित दस्तावेज़",
+    "recommendations": "सिफ़ारिशें",
+    "add": "{{name}} जोड़ें",
+    "fields": {
+      "applicant": "आवेदक", "occupation": "व्यवसाय", "monthlyIncome": "मासिक आय",
+      "visa": "वीज़ा स्थिति", "address": "वर्तमान पता", "nationality": "राष्ट्रीयता",
+      "employment": "रोज़गार", "confidence": "विश्वास"
+    }
+  },
+  "profile": {
+    "title": "आपकी रेंटल पहचान",
+    "subtitle": "आपके सत्यापित दस्तावेज़ों से स्वचालित रूप से बनाई गई। पूरी तरह संपादन योग्य।",
+    "rentalConfidence": "रेंटल विश्वास",
+    "fields": {
+      "occupation": "व्यवसाय", "nationality": "राष्ट्रीयता", "monthlyIncome": "मासिक आय",
+      "address": "वर्तमान पता", "employment": "रोज़गार", "visa": "वीज़ा स्थिति"
+    }
+  },
+  "settings": {
+    "title": "अपना खाता प्रबंधित करें",
+    "subtitle": "अपने RentReady AI अनुभव को अनुकूलित करें।",
+    "account": "खाता",
+    "editProfile": "प्रोफ़ाइल संपादित करें",
+    "notifications": "सूचनाएँ",
+    "notifEmail": "दस्तावेज़ सत्यापित होने पर मुझे ईमेल करें",
+    "theme": "थीम",
+    "darkMode": "डार्क मोड उपयोग करें",
+    "privacy": "गोपनीयता",
+    "shareData": "AI सुधारने के लिए अनाम डेटा साझा करें",
+    "language": "भाषा",
+    "dangerZone": "खतरे का क्षेत्र",
+    "deleteAccount": "खाता हटाएँ",
+    "comingSoon": "जल्द आ रहा है",
+    "comingSoonDetail": "यह सेटिंग शीघ्र ही उपलब्ध होगी।",
+    "themeSwitched": "{{mode}} मोड पर स्विच हुआ",
+    "light": "लाइट", "dark": "डार्क",
+    "languageUpdated": "भाषा अपडेट हुई"
+  },
+  "ai": {
+    "reviewing": "आपके दस्तावेज़ों की समीक्षा हो रही है…", "reviewComplete": "समीक्षा पूर्ण",
+    "confidenceBump": "+6% विश्वास",
+    "steps": {
+      "readPassport": "पासपोर्ट पढ़ रहे हैं", "readEmployment": "रोज़गार पत्र पढ़ रहे हैं",
+      "readVisa": "वीज़ा पढ़ रहे हैं", "checkInconsistencies": "विसंगतियाँ जाँच रहे हैं"
+    },
+    "results": {
+      "passportDetected": "पासपोर्ट पहचाना गया", "salaryVerified": "वेतन सत्यापित",
+      "residencyVerified": "निवास सत्यापित", "noIssues": "कोई समस्या नहीं मिली"
+    }
+  },
+  "errors": {
+    "pageNotFound": "पृष्ठ नहीं मिला",
+    "notFoundHelp": "आपका खोजा गया पृष्ठ मौजूद नहीं है या स्थानांतरित हो गया है।",
+    "somethingWrong": "यह पृष्ठ लोड नहीं हुआ",
+    "somethingWrongHelp": "हमारी ओर से कुछ ग़लत हुआ। कृपया रीफ़्रेश करें या होम पर लौटें।",
+    "emailRequired": "ईमेल आवश्यक है",
+    "networkError": "नेटवर्क त्रुटि",
+    "unsupportedFile": "असमर्थित फ़ाइल"
+  }
+}
