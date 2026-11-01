@@ -78,8 +78,11 @@ async function runMigrations() {
 async function setupStorage() {
   console.log("📦 Step 2/3: Setting up storage bucket...\n");
   
-  const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || 
-    "REMOVED_KEY";
+  const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (!serviceKey) {
+    console.error("Set SUPABASE_SERVICE_ROLE_KEY before running this script.");
+    process.exit(1);
+  }
 
   // Create bucket via REST API
   const res = await fetch(
