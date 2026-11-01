@@ -78,8 +78,11 @@ async function runMigrations() {
 async function setupStorage() {
   console.log("📦 Step 2/3: Setting up storage bucket...\n");
   
-  const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY || 
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImF3dmljcGtieHVianNwdWZveGVlIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4NDQxMDY3NCwiZXhwIjoyMDk5OTg2Njc0fQ.kuAgSj_7lF-helVAPk4M-PHMvo_lU6tQec3A4sUcL7E";
+  const serviceKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (!serviceKey) {
+    console.error("Set SUPABASE_SERVICE_ROLE_KEY before running this script.");
+    process.exit(1);
+  }
 
   // Create bucket via REST API
   const res = await fetch(

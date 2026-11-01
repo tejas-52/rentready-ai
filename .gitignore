@@ -34,3 +34,6 @@ dist-ssr
 .r.env
 .env*
 !.env.production
+.env
+.env.*
+!.env.example
